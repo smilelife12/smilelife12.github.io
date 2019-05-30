@@ -1,7 +1,7 @@
 # Site
 title:              Hyun's Study blog
-bio:                'Better than yesterday.'
-description:        "공부하고 기록하자"
+bio:                '공부하고 기록하자'
+description:        "공부하고 기록하는 블로그"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
