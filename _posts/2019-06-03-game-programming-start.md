@@ -59,7 +59,7 @@ pyuic5 - x filename.ui -o fimename.py
 이를 통해 Qtdesinger로 기본틀을 만들어주고 그를 이용해 코드 바꿔주는 것을 진행할 수 있다.
 
 ## PyQt5 기본 틀 만들어보기
-
+- - -
 기본 어플리케이션을 만들어 보기 위해 샘플 코드를 가져왔다.
 
 ```python
