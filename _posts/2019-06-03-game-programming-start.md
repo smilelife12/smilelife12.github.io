@@ -44,7 +44,7 @@ app.exec_()
 
 ## Qt designer
 - - -
-![Qt Desinger]({{site.url}}/assets/img/posting0603/qtdesinger.PNG)  
+![Qt Desinger]({{site.url}}/assets/img/posting0603/qtdesinger.png)  
 *Qt Desinger 화면*   
 
 이를 편하게 편집하기 위해서 있는 프로그램 Qt Desinger라는 프로그램이 있다.
@@ -86,7 +86,7 @@ if __name__ == '__main__':
     sys.exit(app.exec_())
 ```
 
-![My app]({{site.url}}/assets/img/posting0603/sample.PNG)
+![My app]({{site.url}}/assets/img/posting0603/sample.png)
 
 *샘플 실행화면*
 
