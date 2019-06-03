@@ -14,6 +14,7 @@ comments: true
 
 
 ## Jekyll로 gitpage 블로그 만들기 시작
+- - -
 
 우선 공부 한 내용들을 블로그에 작성해 올리기 위해서 블로그를 만들어 보려던 중에 어떤 것이 좋은지 하고 찾아 봤다.
 그 중에 git을 이용하여 git page를 만드는 것이 있어 이를 만들어보려고 시작했다.
@@ -23,6 +24,7 @@ comments: true
 
 
 ## html까지 공부
+- - -
 
 일단 theme를 다운받아서 하면 쉽다고해서 다운을 받았다....
 
@@ -31,6 +33,7 @@ comments: true
 
 
 ## Post 작성은 markdown
+- - -
 
 포스트 작성은 md파일, markdown 파일이라고 한다.
 이번엔 markdown.. markdown은 뭘까 구글링을 해봤다. [마이크로소프트 Markdown](https://docs.microsoft.com/ko-kr/contribute/how-to-write-use-markdown) 설명 페이지를 찾았다. 일단 그렇게 어려워 보이지는 않아서 다행이다. 그리고 여기에 굉장히 친절하게 쓰여있어서 계속 참조해서 봐야할 것 같다.
