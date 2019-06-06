@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python의 GUI, PyQt5 공부(1)"
-date:   2019-06-03
+date:   2019-06-06
 excerpt: "Python, PyQt5 공부하기"
 tag:
 - Hyun
