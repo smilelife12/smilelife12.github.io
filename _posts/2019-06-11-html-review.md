@@ -36,7 +36,7 @@ comments: false
 
 라고 표현된다.(markdown도 html언어라 표현이 쉽다.)
 
-태그는 약 150개가 넘게 존재하지만, 필요한 태그는 그렇게 많지 않다. (태그 사용 빈도)[https://www.advancedwebranking.com/html/]를 통해 많이 사용되는 태그 위주로 공부를 한다.
+태그는 약 150개가 넘게 존재하지만, 필요한 태그는 그렇게 많지 않다. [태그 사용 빈도](https://www.advancedwebranking.com/html/)를 통해 많이 사용되는 태그 위주로 공부를 한다.
 
 ### 줄바꿈 태그
 - - -
