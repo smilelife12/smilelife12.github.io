@@ -20,7 +20,7 @@ comments: false
 
 - 예시
 
-```Python
+```python
 import requests
 from bs4 import BeautifulSoup
 import telegram
@@ -57,7 +57,7 @@ APScheduler의 경우는 내가 실행시킨 프로그램에서 어떤 함수를
 
 - 예시
 
-```Python
+```python
 import requests
 from bs4 import BeautifulSoup
 import telegram
