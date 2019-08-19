@@ -18,7 +18,11 @@ comments: false
 
 ### 0-1 웹크롤링 준비하기
 - - -
-웹크롤링을 하는 방법은 bs4를 이용해서 진행할 예정이고, 이를 설치한다. bs4는 간단하게 anaconda를 이용해서 설치를 마쳤다. 설치방법은 `conda install -c anaconda beautifulsoup4`를 cmd창에서 작성하면 설치가 된다.
+웹크롤링을 하는 방법은 bs4를 이용해서 진행할 예정이고, 이를 설치한다. bs4는 간단하게 anaconda를 이용해서 설치를 마쳤다. 설치방법은
+
+`conda install -c anaconda beautifulsoup4`
+
+를 cmd창에서 작성하면 설치가 된다.
 
 
 ### 0-2 request로 정보 가져오기
@@ -65,7 +69,7 @@ for i in title:
 
 - 예시
 
-```Python
+```python
 import requests
 from bs4 import BeautifulSoup
 
