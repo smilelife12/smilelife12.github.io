@@ -11,7 +11,7 @@ tag:
 comments: false
 ---
 
-##파이썬으로 영화 예매 프로그램 만들기
+## 파이썬으로 영화 예매 프로그램 만들기
 
 파이썬과 aws, 그리고 텔레그램을 이용해서 영화 예매 프로그램을 만들어 주는 과정을 기록하도록 하겠습니다.
 이 과정은 [인프런 강좌](https://www.inflearn.com/course/영화예매-파이썬/)에서 공부를 시작합니다.
@@ -26,6 +26,7 @@ comments: false
 cgv홈페이지에서 크롤링을 해보는걸 테스트 해본다. cgv 홈페이지를 들어가서 여기서는 용산을 사용했지만, 나같은 경우는 왕십리를 이용하기로 했다. 그래서 크롬을 이용해 개발자도구로 들어가서 iframe영역에 시간표부분을 가져온다. 그를 이용해서 시간표 부분의 url 만 따온다.
 
 - 예시는
+
 ```python
 import requests
 from bs4 import BeautifulSoup
@@ -34,6 +35,7 @@ url = 'http://www.cgv.co.kr/common/showtimes/iframeTheater.aspx?areacode=01&thea
 html = requests.get(url)
 print(html.text)
 ```
+
 와 같이 진행한다.
 
 
@@ -44,6 +46,7 @@ print(html.text)
 이번에 제목만 가져오는 걸 해볼건데 가장 쉬운 방법은 개발자 도구를 가져오는 것이다. 거기서 간단하게 selector를 복사해서 붙여넣으면 된다. 하지만 이는 단 하나를 가져오게 되므로 다시 설정을 해보면 info-moive 클래스 안에 a태그에 제목이 들어온다. 즉, info-movie에 영화 리스트 들이 다 들어있다. 그래서 이 클래스를 select를 이용해 가져오고 그 값들을 for문을 통해서 a 태그에 들어있는 제목들만 뽑아 낼 수 있도록 설정해주면 영화 제목들만 출력이 된다. 그리고 나서 text값만 가져오고 strip을 통해서 빈 공간을 제거해 주면 제목만 출력되는 것을 볼 수 있다.
 
 - 예시
+
 ```python
 import requests
 from bs4 import BeautifulSoup
@@ -61,6 +64,7 @@ for i in title:
 그 전처럼 받아온 시간표 웹에서 imax 부분에 갖다 대면, spam 에서 imax class 가 지정 되어 있는것을 볼 수 있다. 이를 이용해서 있는 날은 이 class 값이 출력이 되고, 없는 경우 None 으로 출력이 된다. 이를 이용해 if문을 사용해서 예매 가능 불가능을 지정할 수 있다.
 
 - 예시
+
 ```Python
 import requests
 from bs4 import BeautifulSoup
@@ -83,6 +87,7 @@ else:
 `지금 까지 과정을 봤을 때 select내에서 `\>의 경우는 해당 태그로의 이동을 시켜주는 것으로 보인다 즉, 현재 클래스나 태그 내의 이동을 시켜주는 방법으로 보인다.`
 
 - 예시
+
 ```python
 import requests
 from bs4 import BeautifulSoup
@@ -121,11 +126,3 @@ for i in bot.getUpdates():
   print(i.message)
 bot.sendMessage(chat_id=916268458, text="테스트중.")
 ```
-
-
-### 2-2 알리미에 텔레그램 봇 구축
-- - -
-만들었던 알리미에다가 텔레그램 봇을 적용하여 주고받도록 한다. 이는 생각보다 간단하다. 단순히, 텔레그램 봇에 보내던 메세지를 아까 알리미에 옮겨서 프린트 되던것을 메세지로 보내도록 지정만 하면된다.
-
-- 예시
-```Python
