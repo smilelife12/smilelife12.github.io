@@ -52,9 +52,9 @@ comments: false
 - - -
 여기서 주요하게 사용했던것들
 ```java
-String.replace('target','replace');
-String.split('target');
-String.contains('String')
+String.replace("target","replace");
+String.split("target");
+String.contains("String")
 ```
 
 ### 코드
