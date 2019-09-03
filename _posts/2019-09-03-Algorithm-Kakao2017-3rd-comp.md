@@ -29,7 +29,7 @@ comments: false
 
 대문자를 처리한다고 할때 1부터 시작해서 26까지 색인번호를 입력한다. 예를 들어 `KAKAO` 입력시
 1. `KAKAO`의 첫글자 `K`가 등록되어 있으므로 11을 출력하고 다음글자 `A`를 포함한 `KA`가 없으므로 `Z`인 26다음 번호인 27에 `KA`를 등록한다.
-2. 'A'는 사전에 있고, `AK`는 없으므로 1을 출력하고 28으로 등록한다.
+2. `A`는 사전에 있고, `AK`는 없으므로 1을 출력하고 28으로 등록한다.
 3. `KA`가 사전에 있으므로 27을 출력하고 `O`가 포함된 `KAO`를 29에 등록한다.
 4. `O`에 해당하는 15를 출력한다.
 
@@ -48,8 +48,8 @@ comments: false
 - - -
 여기서 주요하게 사용했던것들
 ```python
-dictionary = {'key' :'value'}
-if 'key' in dictionary:
+dictionary = {'key' :'value'} # dictionary 자료형
+if 'key' in dictionary: # key값이 dictionary에 있는 지 없는지 확인
   pass
 else:
   pass
