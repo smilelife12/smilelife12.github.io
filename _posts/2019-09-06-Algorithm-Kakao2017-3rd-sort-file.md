@@ -8,7 +8,7 @@ tag:
 - Algorithm
 - Python
 - wlecomekakao
-comments: false
+comments: true
 ---
 
 ## 2017 KAKAO BLIND RECRUITMENT [3차] 파일명 정렬
