@@ -2,7 +2,7 @@
 layout: post
 title:  "파이썬을 파이썬 답게-1"
 date:   2019-09-04
-excerpt: "Python like python"
+excerpt: "정수 다루기, str 다루기"
 tag:
 - Hyun
 - Python

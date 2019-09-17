@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "파이썬을 파이썬 답게-2"
+title:  "파이썬을 파이썬 답게(2)"
 date:   2019-09-10
-excerpt: "Python like python"
+excerpt: "리스트 뒤집기, type 변환하기, iteratortools"
 tag:
 - Hyun
 - Python

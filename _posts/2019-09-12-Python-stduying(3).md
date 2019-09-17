@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "파이썬을 파이썬 답게-3"
+title:  "파이썬을 파이썬 답게(3)"
 date:   2019-09-12
-excerpt: "Python like python"
+excerpt: "순열과 조합, collections, list comprehension 등"
 tag:
 - Hyun
 - Python
