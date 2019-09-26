@@ -2,7 +2,7 @@
 layout: post
 title:  "REST API와 JSON format"
 date:   2019-09-12
-excerpt: "카카오 코딩테스트 대비"
+excerpt: "RestAPI란? 그리고 디자인"
 tag:
 - Hyun
 - REST API
