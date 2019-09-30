@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[개인 프로젝트] 공부 - Django 2"
-date:   2019-09-26
+date:   2019-09-27
 excerpt: "나만의 웹 크롤러 만들기, Django"
 tag:
 - Hyun
