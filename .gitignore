@@ -1,9 +1,4 @@
 _site/
 .sass-cache/
 .jekyll-metadata
-_posts/algorithm
-_posts/study.md
-_posts/2019-09-24-nhn-test.md
-_posts/kakao.md
-_posts/line.md
-_posts/naver.md
+Problems/
