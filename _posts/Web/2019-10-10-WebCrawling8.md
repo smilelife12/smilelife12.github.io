@@ -79,7 +79,7 @@ for문의 구문에 대해서는 [참조:docs](https://docs.djangoproject.com/en
 ```html
 <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
 ```
-여기서 `href="/polls/{{question.id}}/"` 가 하드코딩되어 있다. 여기서 `polls.urls`의 `url()` 함수 안에 name 파라미터를 정의하면 편리하게 할 수 있다.
+여기서 `href="/polls/{{question.id}}/"` 가 하드코딩되어 있다. 여기서 `"polls.urls"`의 `"url()"` 함수 안에 name 파라미터를 정의하면 편리하게 할 수 있다.
 ```html
 <li><a href="{% url 'detail' question.id %}">{{ question:question_text}}</a></li>
 ```
