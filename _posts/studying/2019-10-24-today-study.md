@@ -184,17 +184,17 @@ FROM employee FULL OUTER JOIN department
 
 **single rotation**
 삽입 연산시 루트노드가 2가 되어버리기 때문에 왼쪽 자식노드의 오른쪽 자식노드를 루트노드의 오른쪽 자식노드의 왼쪽 자식노드로 옮겨주고 왼쪽 자식노드를 루트로 올려주는 방식을 취한다.
-![single rotation]({{src.url}}/assests/img/posting1024/img1.png)
+![single rotation]({{src.url}}/assets/img/posting1024/img1.png)
 
 이는 반대 쪽에 추가했을 때는 반대로 돌려주며 이를 left/right rotation 이라 한다.
-![single rotation]({{src.url}}/assests/img/posting1024/img2.gif)
+![single rotation]({{src.url}}/assets/img/posting1024/img2.gif)
 
 **double rotation**  
 한번의 rotation으로 결과가 나오지 않는 경우 수행한다. 이는 결국 single rotation을 두번 해주는 것이고 상황에 맞게 사용해야 한다. 결국 상황의 기준은 추가되는 노드의 부모 트리를 어느 방향으로 하느냐에 달려있다.
 
 **시나리오별 rotation**  
 총 4개의 시나리오를 정리해보면
-![시나리오]({{src.url}}/assests/img/posting1024/img3.png)  
+![시나리오]({{src.url}}/assets/img/posting1024/img3.png)  
 
 - 시나리오1 : U의 왼쪽 자식노드의 왼쪽 서브트리 A에 새 노드 삽입 : single right rotation
 - 시나리오2 : U의 왼쪽 자식노드의 오른쪽 서브트리 B에 새 노드 삽입 : double rotation(left-right)
