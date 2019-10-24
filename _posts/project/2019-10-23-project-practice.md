@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2019-10-23 프로젝트끄적이기"
+title:  "프로젝트 끄적이기"
 date:   2019-10-23
 excerpt: "검색창 만들어보기"
 tag:
