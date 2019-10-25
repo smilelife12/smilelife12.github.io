@@ -36,7 +36,7 @@ comments: true
 
 ## SQL join
 - - -
-<참조> https://ko.wikipedia.org/wiki/Join_\(SQL\)
+<참조> https://ko.wikipedia.org/wiki/Join_(SQL)
 1. Join
   - 2개 이상의 테이블을 연결해 데이터 검색
   - 공통된 값을 이용해서 조인
