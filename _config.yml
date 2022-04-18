@@ -17,16 +17,16 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                 초콜렛빵의 개발 Blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Backend 서버 개발자의 개발 블로그
+  나를 위해 작성하는 블로그 내용들과 정리
 
 # A shorter description for the sidebar.
 tagline:               Change `tagline` in `_config.yml`
@@ -42,8 +42,8 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                초콜렛빵
+  email:               jhpark9209@kakao.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
