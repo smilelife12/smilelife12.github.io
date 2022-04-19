@@ -20,7 +20,7 @@
 lang:                  ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 초콜렛빵의 개발 Blog
+title:                 JH's BLOG
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,10 +29,10 @@ description:           >
   나를 위해 작성하는 블로그 내용들과 정리
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               한걸음 한걸음 꾸준히
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [개발자, 기록, 발전]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -49,8 +49,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
+  - title:             Categories
+    url:               /categories/
   - title:             Documentation
     url:               /docs/
   - title:             About
@@ -58,13 +58,13 @@ menu:
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+# legal:
+#   - title:             LICENSE
+#     url:               /LICENSE/
+#   - title:             NOTICE
+#     url:               /NOTICE/
+#   - title:             CHANGELOG
+#     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. All rights reserved.
@@ -88,7 +88,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/background.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
